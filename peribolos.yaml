@@ -1,0 +1,22 @@
+orgs:
+  crowsnest-security:
+    admins:
+      - sabre1041
+    billing_email: andy.block@gmail.com
+    company: ""
+    default_repository_permission: read
+    description: ""
+    email: ""
+    has_organization_projects: true
+    has_repository_projects: true
+    location: ""
+    members:
+      - boogiespook
+      - kpeeples
+      - RSEA0651
+    members_can_create_repositories: true
+    name: CrowsNest Security
+    repos:
+      .github:
+        default_branch: main
+        has_projects: true
