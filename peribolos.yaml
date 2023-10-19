@@ -1,0 +1,103 @@
+orgs:
+  crowsnest-security:
+    admins:
+      - RSEA0651
+      - sabre1041
+    billing_email: andy.block@gmail.com
+    company: "CrowsNest Security"
+    default_repository_permission: read
+    description: ""
+    email: "info@crowsnest.co"
+    has_organization_projects: true
+    has_repository_projects: true
+    members_can_create_repositories: false
+    location: "United States"
+    members:
+      - boogiespook
+      - kpeeples
+    name: CrowsNest Security
+    repos:
+      .github:
+        default_branch: main
+        description: "Metadata project for the CrowsNest Security Github Organization"
+        has_projects: false
+        has_wiki: false
+      crowsnest-admin-ui:
+        default_branch: main
+        description: "CrowsNest Security Administrative User Interface"
+        has_projects: false
+        has_wiki: false
+      crowsnest-docs:
+        default_branch: main
+        description: "CrowsNest Security Documentation"
+        has_projects: false
+        has_wiki: false
+      crowsnest-helm:
+        default_branch: main
+        description: "CrowsNest Security Helm Charts"
+        has_projects: false
+        has_wiki: false
+      crowsnest-server:
+        default_branch: main
+        description: "CrowsNest Security Server"
+        has_projects: false
+        has_wiki: false
+      crowsnest-ui:
+        default_branch: main
+        description: "CrowsNest Security User Interface"
+        has_projects: false
+        has_wiki: false
+      crowsnest-website:
+        default_branch: main
+        description: "CrowsNest Security Website"
+        has_projects: false
+        has_wiki: false
+    teams:
+      developers:
+        description: "CrowsNest Security Developers"
+        privacy: closed
+        maintainers: []
+        members:
+          - boogiespook
+          - kpeeples
+          - sabre1041
+        repos:
+          .github: write
+          crowsnest-admin: write
+          crowsnest-docs: write
+          crowsnest-helm: write
+          crowsnest-server: write
+          crowsnest-website: write
+          crowsnest-ui: write
+      founders:
+        description: "CrowsNest Security Founders"
+        privacy: closed
+        maintainers: []
+        members:
+          - boogiespook
+          - kpeeples
+          - RSEA0651
+          - sabre1041
+        repos:
+          .github: read
+          crowsnest-admin: read
+          crowsnest-docs: write
+          crowsnest-helm: read
+          crowsnest-server: read
+          crowsnest-website: write
+          crowsnest-ui: read
+      tech-leads:
+        description: "CrowsNest Security Tech Leads"
+        privacy: closed
+        maintainers: []
+        members:
+          - boogiespook
+          - sabre1041
+        repos:
+          .github: admin
+          crowsnest-admin: admin
+          crowsnest-docs: admin
+          crowsnest-helm: admin
+          crowsnest-server: admin
+          crowsnest-website: admin
+          crowsnest-ui: admin
