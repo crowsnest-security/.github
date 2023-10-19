@@ -56,11 +56,11 @@ orgs:
       developers:
         description: "CrowsNest Security Developers"
         privacy: closed
-        maintainers: []
+        maintainers:
+          - sabre1041
         members:
           - boogiespook
           - kpeeples
-          - sabre1041
         repos:
           .github: write
           crowsnest-admin: write
@@ -72,12 +72,12 @@ orgs:
       founders:
         description: "CrowsNest Security Founders"
         privacy: closed
-        maintainers: []
+        maintainers:
+          - sabre1041
+          - RSEA0651
         members:
           - boogiespook
           - kpeeples
-          - RSEA0651
-          - sabre1041
         repos:
           .github: read
           crowsnest-admin: read
@@ -89,10 +89,10 @@ orgs:
       tech-leads:
         description: "CrowsNest Security Tech Leads"
         privacy: closed
-        maintainers: []
+        maintainers:
+          - sabre1041
         members:
           - boogiespook
-          - sabre1041
         repos:
           .github: admin
           crowsnest-admin: admin
