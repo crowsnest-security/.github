@@ -93,11 +93,23 @@ orgs:
         members:
           - boogiespook
           - sabre1041
+          - kpeeples
         repos:
           .github: admin
-          crowsnest-admin-ui: admin
-          crowsnest-docs: admin
-          crowsnest-helm: admin
-          crowsnest-server: admin
-          crowsnest-website: admin
-          crowsnest-ui: admin
+          global-docs: admin
+          global-website: admin
+          seer-admin-ui: admin
+          seer-helm: admin
+          seer-server: admin
+          seer-ui: admin
+          guardian-ui: admin
+          guardian-shadow: admin
+          guardian-corel: admin
+          shadow-infra: admin
+          shadow-kaas: admin
+          shadow-helm-charts: admin
+          shadow-huntbooks: admin
+          shadow-guardian-integration: admin
+          consular-oscal: admin
+          consular-scap: admin
+          consular-models: admin
