@@ -102,14 +102,17 @@ orgs:
           seer-helm: admin
           seer-server: admin
           seer-ui: admin
+          seer-poc: admin
           guardian-ui: admin
           guardian-shadow: admin
           guardian-corel: admin
+          guardian-poc: admin
           shadow-infra: admin
           shadow-kaas: admin
           shadow-helm-charts: admin
           shadow-huntbooks: admin
           shadow-guardian-integration: admin
+          shadow-poc: admin
           consular-oscal: admin
           consular-scap: admin
           consular-models: admin
