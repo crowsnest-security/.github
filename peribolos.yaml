@@ -175,42 +175,6 @@ orgs:
           consular-scap: write
           consular-models: write
           consular-doc: write
-      founders:
-        description: "CrowsNest Security Founders"
-        privacy: closed
-        maintainers: []
-        members:
-          - boogiespook
-          - kpeeples
-          - RSEA0651
-          - sabre1041
-        repos:
-          .github: write
-          docs: write
-          website: write
-          helm-charts: write
-          seer-admin-ui: write
-          seer-helm: write
-          seer-server: write
-          seer-ui: write
-          seer-poc: write
-          seer-doc: write
-          guardian-ui: write
-          guardian-shadow: write
-          guardian-corel: write
-          guardian-poc: write
-          guardian-doc: write
-          shadow-infra: write
-          shadow-kaas: write
-          shadow-helm-charts: write
-          shadow-huntbooks: write
-          shadow-guardian-integration: write
-          shadow-poc: write
-          shadow-doc: write
-          consular-oscal: write
-          consular-scap: write
-          consular-models: write
-          consular-doc: write
       tech-leads:
         description: "CrowsNest Security Tech Leads"
         privacy: closed
