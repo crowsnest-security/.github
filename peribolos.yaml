@@ -159,15 +159,13 @@ orgs:
           guardian-shadow: write
           guardian-ui: write
           helm-charts: write
-          see-doc: write
+          seer-doc: write
           seer-admin-ui: write
-          seer-helm: write
           seer-poc: write
           seer-server: write
           seer-ui: write
           shadow-doc: write
           shadow-guardian-integration: write
-          shadow-helm-charts: write
           shadow-huntbooks: write
           shadow-infra: write
           shadow-kaas: write
@@ -197,13 +195,11 @@ orgs:
           helm-charts: admin
           seer-admin-ui: admin
           seer-doc: admin
-          seer-helm: admin
           seer-poc: admin
           seer-server: admin
           seer-ui: admin
           shadow-doc: admin
           shadow-guardian-integration: admin
-          shadow-helm-charts: admin
           shadow-huntbooks: admin
           shadow-infra: admin
           shadow-kaas: admin
