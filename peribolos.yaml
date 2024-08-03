@@ -13,9 +13,7 @@ orgs:
     has_organization_projects: true
     has_repository_projects: true
     location: "United States"
-    members:
-      - boogiespook
-      - kpeeples
+    members: []
     members_can_create_repositories: false
     name: CrowsNest Security
     repos:
