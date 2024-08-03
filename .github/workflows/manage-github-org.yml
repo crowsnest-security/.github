@@ -84,4 +84,5 @@ jobs:
             --fix-repos \
             --fix-teams \
             --fix-team-repos \
+            --min-admins=3 \
             --confirm=${{ env.APPLY_CHANGES }}
