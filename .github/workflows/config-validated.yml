@@ -1,0 +1,34 @@
+name: Validate GitHub Org Configuration
+on:
+  pull_request:
+    paths:
+      - "peribolos.yaml"
+
+# Declare default permissions as read only.
+permissions: read-all
+
+jobs:
+  config-validated:
+    runs-on: ubuntu-latest
+    name: config-validated
+    steps:
+      - name: Checkout
+        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
+
+      - name: Lowercase and sort peribolos.yaml key and values
+        uses: mikefarah/yq@f15500b20a1c991c8729870ba60a4dc3524b6a94 # v4.44.2
+        with:
+          cmd: yq -i e '(... | select(type == "!!seq"))[] |= downcase' peribolos.yaml && yq -i e '(... | select(type == "!!seq")) |= sort' peribolos.yaml && yq -i 'sort_keys(..)' peribolos.yaml
+
+      - name: Check if there are changes to peribolos.yaml
+        id: changes
+        run: echo "changed=$(git status --porcelain peribolos.yaml | wc -l)" >> $GITHUB_OUTPUT
+
+      - name: Fail if peribolos.yaml changes found
+        if: steps.changes.outputs.changed >= 1
+        run: |
+          echo "Uncommitted changes to peribolos.yaml exist. Failing."
+          echo 
+          git status --porcelain
+          git --no-pager diff peribolos.yaml 
+          exit 1

@@ -1,10 +1,10 @@
 orgs:
   crowsnest-security:
     admins:
-      - RSEA0651
-      - sabre1041
-      - kpeeples
       - boogiespook
+      - kpeeples
+      - rsea0651
+      - sabre1041
     billing_email: andy.block@gmail.com
     company: "CrowsNest Security"
     default_repository_permission: read
@@ -12,11 +12,11 @@ orgs:
     email: "info@crowsnest.co"
     has_organization_projects: true
     has_repository_projects: true
-    members_can_create_repositories: false
     location: "United States"
     members:
       - boogiespook
       - kpeeples
+    members_can_create_repositories: false
     name: CrowsNest Security
     repos:
       .github:
@@ -24,14 +24,59 @@ orgs:
         description: "Metadata project for the CrowsNest Security Github Organization"
         has_projects: false
         has_wiki: false
+      consular-admin-ui:
+        default_branch: main
+        description: "CrowsNest Security Administrative User Interface"
+        has_projects: false
+        has_wiki: false
+      consular-docs:
+        default_branch: main
+        description: "CrowsNest Security Documentation for the Shadow application for admin and user"
+        has_projects: false
+        has_wiki: false
+      consular-poc:
+        default_branch: main
+        description: "CrowsNest Security Proof of Concept for initial high level demos for Shadow (new AI Compliance)"
+        has_projects: false
+        has_wiki: false
+      consular-server:
+        default_branch: main
+        description: "CrowsNest Security Server"
+        has_projects: false
+        has_wiki: false
+      consular-ui:
+        default_branch: main
+        description: "CrowsNest Security User Interface"
+        has_projects: false
+        has_wiki: false
       docs:
         default_branch: main
         description: "Overall Documentation project for the CrowsNest Security Github Organization"
         has_projects: false
         has_wiki: false
-      website:
+      guardian-admin-ui:
         default_branch: main
-        description: "Website project for the CrowsNest Security Github Organization"
+        description: "CrowsNest Security Administrative User Interface"
+        has_projects: false
+        has_wiki: false
+      guardian-docs:
+        default_branch: main
+        description: "CrowsNest Security Documentation for the Shadow application for admin and user"
+        has_projects: false
+        has_wiki: false
+      guardian-poc:
+        default_branch: main
+        description: "CrowsNest Security Proof of Concept for initial high level demos for Shadow (new risk engine)"
+        has_projects: false
+        has_wiki: false
+      guardian-server:
+        default_branch: main
+        description: "CrowsNest Security Server"
+        has_projects: false
+        has_wiki: false
+      guardian-ui:
+        default_branch: main
+        description: "CrowsNest Security User Interface"
         has_projects: false
         has_wiki: false
       helm-charts:
@@ -49,6 +94,11 @@ orgs:
         description: "CrowsNest Security Documentation for the Seer application for admin and user"
         has_projects: false
         has_wiki: false
+      seer-poc:
+        default_branch: main
+        description: "CrowsNest Security Proof of Concept for initial high level demos for Seer (enhanced telescope toggle/including ZTA)"
+        has_projects: false
+        has_wiki: false
       seer-server:
         default_branch: main
         description: "CrowsNest Security Server"
@@ -57,11 +107,6 @@ orgs:
       seer-ui:
         default_branch: main
         description: "CrowsNest Security User Interface"
-        has_projects: false
-        has_wiki: false
-      seer-poc:
-        default_branch: main
-        description: "CrowsNest Security Proof of Concept for initial high level demos for Seer (enhanced telescope toggle/including ZTA)"
         has_projects: false
         has_wiki: false
       shadow-admin-ui:
@@ -74,6 +119,11 @@ orgs:
         description: "CrowsNest Security Documentation for the Shadow application for admin and user"
         has_projects: false
         has_wiki: false
+      shadow-poc:
+        default_branch: main
+        description: "CrowsNest Security Proof of Concept for initial high level demos for Shadow (enhanced KaaS module for risk engine)"
+        has_projects: false
+        has_wiki: false
       shadow-server:
         default_branch: main
         description: "CrowsNest Security Server"
@@ -84,130 +134,80 @@ orgs:
         description: "CrowsNest Security User Interface"
         has_projects: false
         has_wiki: false
-      shadow-poc:
+      website:
         default_branch: main
-        description: "CrowsNest Security Proof of Concept for initial high level demos for Shadow (enhanced KaaS module for risk engine)"
-        has_projects: false
-        has_wiki: false
-      guardian-admin-ui:
-        default_branch: main
-        description: "CrowsNest Security Administrative User Interface"
-        has_projects: false
-        has_wiki: false
-      guardian-docs:
-        default_branch: main
-        description: "CrowsNest Security Documentation for the Shadow application for admin and user"
-        has_projects: false
-        has_wiki: false
-      guardian-server:
-        default_branch: main
-        description: "CrowsNest Security Server"
-        has_projects: false
-        has_wiki: false
-      guardian-ui:
-        default_branch: main
-        description: "CrowsNest Security User Interface"
-        has_projects: false
-        has_wiki: false
-      guardian-poc:
-        default_branch: main
-        description: "CrowsNest Security Proof of Concept for initial high level demos for Shadow (new risk engine)"
-        has_projects: false
-        has_wiki: false
-      consular-admin-ui:
-        default_branch: main
-        description: "CrowsNest Security Administrative User Interface"
-        has_projects: false
-        has_wiki: false
-      consular-docs:
-        default_branch: main
-        description: "CrowsNest Security Documentation for the Shadow application for admin and user"
-        has_projects: false
-        has_wiki: false
-      consular-server:
-        default_branch: main
-        description: "CrowsNest Security Server"
-        has_projects: false
-        has_wiki: false
-      consular-ui:
-        default_branch: main
-        description: "CrowsNest Security User Interface"
-        has_projects: false
-        has_wiki: false
-      consular-poc:
-        default_branch: main
-        description: "CrowsNest Security Proof of Concept for initial high level demos for Shadow (new AI Compliance)"
+        description: "Website project for the CrowsNest Security Github Organization"
         has_projects: false
         has_wiki: false
     teams:
       developers:
         description: "CrowsNest Security Developers"
-        privacy: closed
         maintainers: []
         members:
           - boogiespook
           - kpeeples
           - sabre1041
+        privacy: closed
         repos:
           .github: write
-          docs: write
-          website: write
-          helm-charts: write
-          seer-admin-ui: write
-          seer-helm: write
-          seer-server: write
-          seer-ui: write
-          seer-poc: write
-          see-doc: write
-          guardian-ui: write
-          guardian-shadow: write
-          guardian-corel: write
-          guardian-poc: write
-          guardian-doc: write
-          shadow-infra: write
-          shadow-kaas: write
-          shadow-helm-charts: write
-          shadow-huntbooks: write
-          shadow-guardian-integration: write
-          shadow-poc: write
-          shadow-doc: write
+          consular-doc: write
+          consular-models: write
           consular-oscal: write
           consular-scap: write
-          consular-models: write
-          consular-doc: write
+          docs: write
+          guardian-corel: write
+          guardian-doc: write
+          guardian-poc: write
+          guardian-shadow: write
+          guardian-ui: write
+          helm-charts: write
+          see-doc: write
+          seer-admin-ui: write
+          seer-helm: write
+          seer-poc: write
+          seer-server: write
+          seer-ui: write
+          shadow-doc: write
+          shadow-guardian-integration: write
+          shadow-helm-charts: write
+          shadow-huntbooks: write
+          shadow-infra: write
+          shadow-kaas: write
+          shadow-poc: write
+          website: write
       tech-leads:
         description: "CrowsNest Security Tech Leads"
-        privacy: closed
         maintainers: []
         members:
           - boogiespook
-          - sabre1041
           - kpeeples
-          - RSEA0651
+          - rsea0651
+          - sabre1041
+        privacy: closed
         repos:
           .github: admin
-          docs: admin
-          website: admin
-          helm-charts: admin
-          seer-admin-ui: admin
-          seer-helm: admin
-          seer-server: admin
-          seer-ui: admin
-          seer-poc: admin
-          seer-doc: admin
-          guardian-ui: admin
-          guardian-shadow: admin
-          guardian-corel: admin
-          guardian-poc: admin
-          guardian-doc: admin
-          shadow-infra: admin
-          shadow-kaas: admin
-          shadow-helm-charts: admin
-          shadow-huntbooks: admin
-          shadow-guardian-integration: admin
-          shadow-poc: admin
-          shadow-doc: admin
+          consular-doc: admin
+          consular-models: admin
           consular-oscal: admin
           consular-scap: admin
-          consular-models: admin
-          consular-doc: admin
+          docs: admin
+          guardian-corel: admin
+          guardian-doc: admin
+          guardian-poc: admin
+          guardian-shadow: admin
+          guardian-ui: admin
+          helm-charts: admin
+          seer-admin-ui: admin
+          seer-doc: admin
+          seer-helm: admin
+          seer-poc: admin
+          seer-server: admin
+          seer-ui: admin
+          shadow-doc: admin
+          shadow-guardian-integration: admin
+          shadow-helm-charts: admin
+          shadow-huntbooks: admin
+          shadow-infra: admin
+          shadow-kaas: admin
+          shadow-poc: admin
+          website: admin
