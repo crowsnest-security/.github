@@ -159,8 +159,8 @@ orgs:
           guardian-shadow: write
           guardian-ui: write
           helm-charts: write
-          seer-docs: write
           seer-admin-ui: write
+          seer-docs: write
           seer-poc: write
           seer-server: write
           seer-ui: write
