@@ -148,26 +148,24 @@ orgs:
         privacy: closed
         repos:
           .github: write
-          consular-doc: write
+          consular-docs: write
           consular-models: write
           consular-oscal: write
           consular-scap: write
           docs: write
           guardian-corel: write
-          guardian-doc: write
+          guardian-docs: write
           guardian-poc: write
           guardian-shadow: write
           guardian-ui: write
           helm-charts: write
-          see-doc: write
           seer-admin-ui: write
-          seer-helm: write
+          seer-docs: write
           seer-poc: write
           seer-server: write
           seer-ui: write
-          shadow-doc: write
+          shadow-docs: write
           shadow-guardian-integration: write
-          shadow-helm-charts: write
           shadow-huntbooks: write
           shadow-infra: write
           shadow-kaas: write
@@ -184,26 +182,24 @@ orgs:
         privacy: closed
         repos:
           .github: admin
-          consular-doc: admin
+          consular-docs: admin
           consular-models: admin
           consular-oscal: admin
           consular-scap: admin
           docs: admin
           guardian-corel: admin
-          guardian-doc: admin
+          guardian-docs: admin
           guardian-poc: admin
           guardian-shadow: admin
           guardian-ui: admin
           helm-charts: admin
           seer-admin-ui: admin
-          seer-doc: admin
-          seer-helm: admin
+          seer-docs: admin
           seer-poc: admin
           seer-server: admin
           seer-ui: admin
-          shadow-doc: admin
+          shadow-docs: admin
           shadow-guardian-integration: admin
-          shadow-helm-charts: admin
           shadow-huntbooks: admin
           shadow-infra: admin
           shadow-kaas: admin
