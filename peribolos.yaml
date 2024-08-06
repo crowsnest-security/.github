@@ -47,6 +47,21 @@ orgs:
         description: "CrowsNest Security User Interface"
         has_projects: false
         has_wiki: false
+      consular-models:
+        default_branch: main
+        description: "CrowsNest Security Compliance AI Models"
+        has_projects: false
+        has_wiki: false
+      consular-oscal:
+        default_branch: main
+        description: "CrowsNest Security oscal content"
+        has_projects: false
+        has_wiki: false
+      consular-scap:
+        default_branch: main
+        description: "CrowsNest Security scap content"
+        has_projects: false
+        has_wiki: false
       docs:
         default_branch: main
         description: "Overall Documentation project for the CrowsNest Security Github Organization"
@@ -75,6 +90,16 @@ orgs:
       guardian-ui:
         default_branch: main
         description: "CrowsNest Security User Interface"
+        has_projects: false
+        has_wiki: false
+      guardian-core:
+        default_branch: main
+        description: "CrowsNest Security Core"
+        has_projects: false
+        has_wiki: false
+      guardian-shadow:
+        default_branch: main
+        description: "CrowsNest Security Shadow/KaaS module interface"
         has_projects: false
         has_wiki: false
       helm-charts:
@@ -132,6 +157,26 @@ orgs:
         description: "CrowsNest Security User Interface"
         has_projects: false
         has_wiki: false
+      shadow-guardian-integration:
+        default_branch: main
+        description: "CrowsNest Security guardian integration"
+        has_projects: false
+        has_wiki: false
+      shadow-huntbooks:
+        default_branch: main
+        description: "CrowsNest Security Community Huntbooks"
+        has_projects: false
+        has_wiki: false
+      shadow-infra:
+        default_branch: main
+        description: "CrowsNest Security IaC"
+        has_projects: false
+        has_wiki: false
+      shadow-kaas:
+        default_branch: main
+        description: "CrowsNest Security Kestrel"
+        has_projects: false
+        has_wiki: false
       website:
         default_branch: main
         description: "Website project for the CrowsNest Security Github Organization"
@@ -152,8 +197,9 @@ orgs:
           consular-models: write
           consular-oscal: write
           consular-scap: write
+          consular-poc: write
           docs: write
-          guardian-corel: write
+          guardian-core: write
           guardian-docs: write
           guardian-poc: write
           guardian-shadow: write
@@ -186,8 +232,9 @@ orgs:
           consular-models: admin
           consular-oscal: admin
           consular-scap: admin
+          consular-poc: admin
           docs: admin
-          guardian-corel: admin
+          guardian-core: admin
           guardian-docs: admin
           guardian-poc: admin
           guardian-shadow: admin
