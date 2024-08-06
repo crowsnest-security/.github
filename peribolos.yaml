@@ -32,9 +32,24 @@ orgs:
         description: "CrowsNest Security Documentation for the Shadow application for admin and user"
         has_projects: false
         has_wiki: false
+      consular-models:
+        default_branch: main
+        description: "CrowsNest Security Compliance AI Models"
+        has_projects: false
+        has_wiki: false
+      consular-oscal:
+        default_branch: main
+        description: "CrowsNest Security oscal content"
+        has_projects: false
+        has_wiki: false
       consular-poc:
         default_branch: main
         description: "CrowsNest Security Proof of Concept for initial high level demos for Shadow (new AI Compliance)"
+        has_projects: false
+        has_wiki: false
+      consular-scap:
+        default_branch: main
+        description: "CrowsNest Security scap content"
         has_projects: false
         has_wiki: false
       consular-server:
@@ -47,21 +62,6 @@ orgs:
         description: "CrowsNest Security User Interface"
         has_projects: false
         has_wiki: false
-      consular-models:
-        default_branch: main
-        description: "CrowsNest Security Compliance AI Models"
-        has_projects: false
-        has_wiki: false
-      consular-oscal:
-        default_branch: main
-        description: "CrowsNest Security oscal content"
-        has_projects: false
-        has_wiki: false
-      consular-scap:
-        default_branch: main
-        description: "CrowsNest Security scap content"
-        has_projects: false
-        has_wiki: false
       docs:
         default_branch: main
         description: "Overall Documentation project for the CrowsNest Security Github Organization"
@@ -70,6 +70,11 @@ orgs:
       guardian-admin-ui:
         default_branch: main
         description: "CrowsNest Security Administrative User Interface"
+        has_projects: false
+        has_wiki: false
+      guardian-core:
+        default_branch: main
+        description: "CrowsNest Security Core"
         has_projects: false
         has_wiki: false
       guardian-docs:
@@ -87,19 +92,14 @@ orgs:
         description: "CrowsNest Security Server"
         has_projects: false
         has_wiki: false
-      guardian-ui:
-        default_branch: main
-        description: "CrowsNest Security User Interface"
-        has_projects: false
-        has_wiki: false
-      guardian-core:
-        default_branch: main
-        description: "CrowsNest Security Core"
-        has_projects: false
-        has_wiki: false
       guardian-shadow:
         default_branch: main
         description: "CrowsNest Security Shadow/KaaS module interface"
+        has_projects: false
+        has_wiki: false
+      guardian-ui:
+        default_branch: main
+        description: "CrowsNest Security User Interface"
         has_projects: false
         has_wiki: false
       helm-charts:
@@ -142,21 +142,6 @@ orgs:
         description: "CrowsNest Security Documentation for the Shadow application for admin and user"
         has_projects: false
         has_wiki: false
-      shadow-poc:
-        default_branch: main
-        description: "CrowsNest Security Proof of Concept for initial high level demos for Shadow (enhanced KaaS module for risk engine)"
-        has_projects: false
-        has_wiki: false
-      shadow-server:
-        default_branch: main
-        description: "CrowsNest Security Server"
-        has_projects: false
-        has_wiki: false
-      shadow-ui:
-        default_branch: main
-        description: "CrowsNest Security User Interface"
-        has_projects: false
-        has_wiki: false
       shadow-guardian-integration:
         default_branch: main
         description: "CrowsNest Security guardian integration"
@@ -175,6 +160,21 @@ orgs:
       shadow-kaas:
         default_branch: main
         description: "CrowsNest Security Kestrel"
+        has_projects: false
+        has_wiki: false
+      shadow-poc:
+        default_branch: main
+        description: "CrowsNest Security Proof of Concept for initial high level demos for Shadow (enhanced KaaS module for risk engine)"
+        has_projects: false
+        has_wiki: false
+      shadow-server:
+        default_branch: main
+        description: "CrowsNest Security Server"
+        has_projects: false
+        has_wiki: false
+      shadow-ui:
+        default_branch: main
+        description: "CrowsNest Security User Interface"
         has_projects: false
         has_wiki: false
       website:
