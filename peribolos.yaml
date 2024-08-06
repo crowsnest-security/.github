@@ -196,8 +196,8 @@ orgs:
           consular-docs: write
           consular-models: write
           consular-oscal: write
-          consular-scap: write
           consular-poc: write
+          consular-scap: write
           docs: write
           guardian-core: write
           guardian-docs: write
@@ -231,8 +231,8 @@ orgs:
           consular-docs: admin
           consular-models: admin
           consular-oscal: admin
-          consular-scap: admin
           consular-poc: admin
+          consular-scap: admin
           docs: admin
           guardian-core: admin
           guardian-docs: admin
