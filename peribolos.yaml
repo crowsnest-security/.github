@@ -32,9 +32,24 @@ orgs:
         description: "CrowsNest Security Documentation for the Shadow application for admin and user"
         has_projects: false
         has_wiki: false
+      consular-models:
+        default_branch: main
+        description: "CrowsNest Security Compliance AI Models"
+        has_projects: false
+        has_wiki: false
+      consular-oscal:
+        default_branch: main
+        description: "CrowsNest Security oscal content"
+        has_projects: false
+        has_wiki: false
       consular-poc:
         default_branch: main
         description: "CrowsNest Security Proof of Concept for initial high level demos for Shadow (new AI Compliance)"
+        has_projects: false
+        has_wiki: false
+      consular-scap:
+        default_branch: main
+        description: "CrowsNest Security scap content"
         has_projects: false
         has_wiki: false
       consular-server:
@@ -57,6 +72,11 @@ orgs:
         description: "CrowsNest Security Administrative User Interface"
         has_projects: false
         has_wiki: false
+      guardian-core:
+        default_branch: main
+        description: "CrowsNest Security Core"
+        has_projects: false
+        has_wiki: false
       guardian-docs:
         default_branch: main
         description: "CrowsNest Security Documentation for the Shadow application for admin and user"
@@ -70,6 +90,11 @@ orgs:
       guardian-server:
         default_branch: main
         description: "CrowsNest Security Server"
+        has_projects: false
+        has_wiki: false
+      guardian-shadow:
+        default_branch: main
+        description: "CrowsNest Security Shadow/KaaS module interface"
         has_projects: false
         has_wiki: false
       guardian-ui:
@@ -117,6 +142,26 @@ orgs:
         description: "CrowsNest Security Documentation for the Shadow application for admin and user"
         has_projects: false
         has_wiki: false
+      shadow-guardian-integration:
+        default_branch: main
+        description: "CrowsNest Security guardian integration"
+        has_projects: false
+        has_wiki: false
+      shadow-huntbooks:
+        default_branch: main
+        description: "CrowsNest Security Community Huntbooks"
+        has_projects: false
+        has_wiki: false
+      shadow-infra:
+        default_branch: main
+        description: "CrowsNest Security IaC"
+        has_projects: false
+        has_wiki: false
+      shadow-kaas:
+        default_branch: main
+        description: "CrowsNest Security Kestrel"
+        has_projects: false
+        has_wiki: false
       shadow-poc:
         default_branch: main
         description: "CrowsNest Security Proof of Concept for initial high level demos for Shadow (enhanced KaaS module for risk engine)"
@@ -151,9 +196,10 @@ orgs:
           consular-docs: write
           consular-models: write
           consular-oscal: write
+          consular-poc: write
           consular-scap: write
           docs: write
-          guardian-corel: write
+          guardian-core: write
           guardian-docs: write
           guardian-poc: write
           guardian-shadow: write
@@ -185,9 +231,10 @@ orgs:
           consular-docs: admin
           consular-models: admin
           consular-oscal: admin
+          consular-poc: admin
           consular-scap: admin
           docs: admin
-          guardian-corel: admin
+          guardian-core: admin
           guardian-docs: admin
           guardian-poc: admin
           guardian-shadow: admin
