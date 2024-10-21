@@ -2,6 +2,7 @@ orgs:
   crowsnest-security:
     admins:
       - boogiespook
+      - jacksquid-cn
       - rsea0651
       - sabre1041
     billing_email: andy.block@gmail.com
@@ -187,6 +188,7 @@ orgs:
         maintainers: []
         members:
           - boogiespook
+          - jacksquid-cn
           - sabre1041
         privacy: closed
         repos:
@@ -220,6 +222,7 @@ orgs:
         maintainers: []
         members:
           - boogiespook
+          - jacksquid-cn
           - rsea0651
           - sabre1041
         privacy: closed
