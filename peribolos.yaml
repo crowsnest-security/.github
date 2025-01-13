@@ -2,77 +2,345 @@ orgs:
   crowsnest-security:
     admins:
       - boogiespook
-      - rsea0651
+      - RSEA0651
       - sabre1041
     billing_email: andy.block@gmail.com
-    company: "CrowsNest Security"
+    company: CrowsNest Security
     default_repository_permission: read
     description: ""
-    email: "info@crowsnestsecurity.com"
+    email: info@crowsnestsecurity.com
     has_organization_projects: true
     has_repository_projects: true
-    location: "United States"
-    members: []
+    location: United States
+    members:
+      - JackSquid-CN
     members_can_create_repositories: false
-    name: CrowsNest Security
+    name: CrowsNest Systems
     repos:
       .github:
         default_branch: main
-        description: "Metadata project for the CrowsNest Security Github Organization"
+        description: Metadata project for the CrowsNest Security Github Organization
         has_projects: false
         has_wiki: false
-      crowsnest-backend:
+      consular-admin-ui:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
         default_branch: main
-        description: "CrowsNest Backend Application"
+        description: CrowsNest Security Administrative User Interface
+        has_projects: false
+        has_wiki: false
+      consular-docs:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security Documentation for the Shadow application for admin and user
+        has_projects: false
+        has_wiki: false
+      consular-models:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security Compliance AI Models
+        has_projects: false
+        has_wiki: false
+      consular-oscal:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security oscal content
+        has_projects: false
+        has_wiki: false
+      consular-poc:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security Proof of Concept for initial high level demos for Shadow (new AI Compliance)
+        has_projects: false
+        has_wiki: false
+      consular-scap:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security scap content
+        has_projects: false
+        has_wiki: false
+      consular-server:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security Server
+        has_projects: false
+        has_wiki: false
+      consular-ui:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security User Interface
         has_projects: false
         has_wiki: false
       docs:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
         default_branch: main
-        description: "Overall Documentation project for the CrowsNest Security Github Organization"
+        description: Overall Documentation project for the CrowsNest Security Github Organization
+        has_projects: false
+        has_wiki: false
+      guardian-admin-ui:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security Administrative User Interface
+        has_projects: false
+        has_wiki: false
+      guardian-core:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security Core
+        has_projects: false
+        has_wiki: false
+      guardian-docs:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security Documentation for the Shadow application for admin and user
+        has_projects: false
+        has_wiki: false
+      guardian-poc:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security Proof of Concept for initial high level demos for Shadow (new risk engine)
+        has_projects: false
+        has_wiki: false
+      guardian-server:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security Server
+        has_projects: false
+        has_wiki: false
+      guardian-shadow:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security Shadow/KaaS module interface
+        has_projects: false
+        has_wiki: false
+      guardian-ui:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security User Interface
         has_projects: false
         has_wiki: false
       helm-charts:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
         default_branch: main
-        description: "Helm Charts for the applications for the CrowsNest Security Github Organization"
+        description: Helm Charts for the applications for the CrowsNest Security Github Organization
+        has_projects: false
+        has_wiki: false
+      seer-admin-ui:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security Administrative User Interface
+        has_projects: false
+        has_wiki: false
+      seer-docs:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security Documentation for the Seer application for admin and user
+        has_projects: false
+        has_wiki: false
+      seer-poc:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security Proof of Concept for initial high level demos for Seer (enhanced telescope toggle/including ZTA)
+        has_projects: false
+        has_wiki: false
+      seer-server:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security Server
+        has_projects: false
+        has_wiki: false
+      seer-ui:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security User Interface
+        has_projects: false
+        has_wiki: false
+      shadow-admin-ui:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security Administrative User Interface
+        has_projects: false
+        has_wiki: false
+      shadow-docs:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security Documentation for the Shadow application for admin and user
+        has_projects: false
+        has_wiki: false
+      shadow-guardian-integration:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security guardian integration
+        has_projects: false
+        has_wiki: false
+      shadow-huntbooks:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security Community Huntbooks
+        has_projects: false
+        has_wiki: false
+      shadow-infra:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security IaC
+        has_projects: false
+        has_wiki: false
+      shadow-kaas:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security Kestrel
+        has_projects: false
+        has_wiki: false
+      shadow-poc:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security Proof of Concept for initial high level demos for Shadow (enhanced KaaS module for risk engine)
+        has_projects: false
+        has_wiki: false
+      shadow-server:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security Server
+        has_projects: false
+        has_wiki: false
+      shadow-ui:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Security User Interface
         has_projects: false
         has_wiki: false
       website:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
         default_branch: main
-        description: "Website project for the CrowsNest Security Github Organization"
+        description: Website project for the CrowsNest Security Github Organization
         has_projects: false
         has_wiki: false
     teams:
-      contractors:
-        description: "CrowsNest Contractors"
+      developers:
+        description: CrowsNest Security Developers
         maintainers:
           - sabre1041
-        members: []
-        privacy: closed
-        repos: []
-      developers:
-        description: "CrowsNest Security Developers"
-        maintainers: []
-        members:
           - boogiespook
-          - sabre1041
         privacy: closed
         repos:
           .github: write
-          crowsnest-backend: write
+          consular-docs: write
+          consular-models: write
+          consular-oscal: write
+          consular-poc: write
+          consular-scap: write
           docs: write
+          guardian-core: write
+          guardian-docs: write
+          guardian-poc: write
+          guardian-shadow: write
+          guardian-ui: write
           helm-charts: write
+          seer-admin-ui: write
+          seer-docs: write
+          seer-poc: write
+          seer-server: write
+          seer-ui: write
+          shadow-docs: write
+          shadow-guardian-integration: write
+          shadow-huntbooks: write
+          shadow-infra: write
+          shadow-kaas: write
+          shadow-poc: write
           website: write
       tech-leads:
-        description: "CrowsNest Security Tech Leads"
-        maintainers: []
-        members:
-          - boogiespook
-          - rsea0651
+        description: CrowsNest Security Tech Leads
+        maintainers:
           - sabre1041
+          - boogiespook
+          - RSEA0651
         privacy: closed
         repos:
-          .github: write
-          crowsnest-backend: write
-          docs: write
-          helm-charts: write
-          website: write
+          .github: admin
+          consular-docs: admin
+          consular-models: admin
+          consular-oscal: admin
+          consular-poc: admin
+          consular-scap: admin
+          docs: admin
+          guardian-core: admin
+          guardian-docs: admin
+          guardian-poc: admin
+          guardian-shadow: admin
+          guardian-ui: admin
+          helm-charts: admin
+          seer-admin-ui: admin
+          seer-docs: admin
+          seer-poc: admin
+          seer-server: admin
+          seer-ui: admin
+          shadow-docs: admin
+          shadow-guardian-integration: admin
+          shadow-huntbooks: admin
+          shadow-infra: admin
+          shadow-kaas: admin
+          shadow-poc: admin
+          website: admin
