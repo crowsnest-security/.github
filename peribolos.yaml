@@ -5,52 +5,68 @@ orgs:
       - rsea0651
       - sabre1041
     billing_email: andy.block@gmail.com
-    company: "CrowsNest Security"
+    company: CrowsNest Security
     default_repository_permission: read
     description: ""
-    email: "info@crowsnestsecurity.com"
+    email: info@crowsnestsecurity.com
     has_organization_projects: true
     has_repository_projects: true
     location: "United States"
-    members: []
+    members:
+      - jacksquid-cn
     members_can_create_repositories: false
-    name: CrowsNest Security
+    name: CrowsNest Systems
     repos:
       .github:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
         default_branch: main
-        description: "Metadata project for the CrowsNest Security Github Organization"
+        description: Metadata project for the CrowsNest Security Github Organization
         has_projects: false
         has_wiki: false
       crowsnest-backend:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
         default_branch: main
-        description: "CrowsNest Backend Application"
+        description: CrowsNest Backend Application
         has_projects: false
         has_wiki: false
       docs:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
         default_branch: main
-        description: "Overall Documentation project for the CrowsNest Security Github Organization"
+        description: Overall Documentation project for the CrowsNest Security Github Organization
         has_projects: false
         has_wiki: false
       helm-charts:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
         default_branch: main
-        description: "Helm Charts for the applications for the CrowsNest Security Github Organization"
+        description: Helm Charts for the applications for the CrowsNest Security Github Organization
         has_projects: false
         has_wiki: false
       website:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
         default_branch: main
-        description: "Website project for the CrowsNest Security Github Organization"
+        description: Website project for the CrowsNest Security Github Organization
         has_projects: false
         has_wiki: false
     teams:
       contractors:
-        description: "CrowsNest Contractors"
+        description: CrowsNest Contractors
         maintainers:
           - sabre1041
         members: []
         privacy: closed
         repos: []
       developers:
-        description: "CrowsNest Security Developers"
+        description: CrowsNest Security Developers
         maintainers: []
         members:
           - boogiespook
@@ -63,7 +79,7 @@ orgs:
           helm-charts: write
           website: write
       tech-leads:
-        description: "CrowsNest Security Tech Leads"
+        description: CrowsNest Security Tech Leads
         maintainers: []
         members:
           - boogiespook
