@@ -13,6 +13,7 @@ orgs:
     has_repository_projects: true
     location: "United States"
     members:
+      - alex-malei
       - jacksquid-cn
     members_can_create_repositories: false
     name: CrowsNest Systems
@@ -31,6 +32,14 @@ orgs:
         allow_squash_merge: false
         default_branch: main
         description: CrowsNest Backend Application
+        has_projects: false
+        has_wiki: false
+      crowsnest-frontend:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: CrowsNest Frontend Application
         has_projects: false
         has_wiki: false
       docs:
@@ -64,7 +73,8 @@ orgs:
           - sabre1041
         members: []
         privacy: closed
-        repos: []
+        repos:
+          crowsnest-frontend: admin
       developers:
         description: CrowsNest Security Developers
         maintainers: []
@@ -75,6 +85,7 @@ orgs:
         repos:
           .github: write
           crowsnest-backend: write
+          crowsnest-frontend: write
           docs: write
           helm-charts: write
           website: write
@@ -87,8 +98,9 @@ orgs:
           - sabre1041
         privacy: closed
         repos:
-          .github: write
-          crowsnest-backend: write
-          docs: write
-          helm-charts: write
-          website: write
+          .github: admin
+          crowsnest-backend: admin
+          crowsnest-frontend: admin
+          docs: admin
+          helm-charts: admin
+          website: admin
