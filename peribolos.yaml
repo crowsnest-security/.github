@@ -72,7 +72,8 @@ orgs:
         description: CrowsNest Contractors
         maintainers:
           - sabre1041
-        members: []
+        members:
+          - alex-malei
         privacy: closed
         repos:
           crowsnest-frontend: admin
